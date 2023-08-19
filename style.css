@@ -7,9 +7,6 @@ html, body {
     font-family: 'Orbitron', sans-serif;
 }
 
-*  {
-    border: 1px solid red;
-}
 
 /* Advertisement */
 
@@ -201,6 +198,9 @@ header a:hover {
     width: 20rem;
     height: 25rem;
     object-fit: cover;
+    border-radius: 20px;
+    border: 1.5px solid black;
+    box-shadow: 0.2rem 0.2rem 0.1rem #434745;
 }
 
 .squad-name {
@@ -216,6 +216,7 @@ header a:hover {
 }
 
 /* Location */
+
 .location-pic {
     background-image: url("sources/location.avif");
     background-position: center;
@@ -225,6 +226,28 @@ header a:hover {
     height: 32rem;
 }
 
+.location-pic h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* Contact */
+.contact-box {
+    margin: 0 auto;
+    width: 50%;
+    height: 10rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid #acecf4;
+    background-color: #caf3f8;
+    box-shadow: 0.5rem 0.5rem 0.5rem #95e7f1;
+    
+}
+.contact-box img {
+    width: 2rem;
+    height: 2rem;
+}
 
 
 
